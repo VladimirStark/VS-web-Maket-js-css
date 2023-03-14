@@ -1,0 +1,25 @@
+.main-menu ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+    
+}
+
+.main-menu a {
+    text-decoration: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    background-image: url(online-shopping.jpg);
+    height: 500px;
+    background-size: contain;
+    background-repeat:  no-repeat;
+    
+}
