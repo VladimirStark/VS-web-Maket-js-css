@@ -7,19 +7,36 @@
     
 }
 
-.main-menu a {
+/.main-menu a {
     text-decoration: none;
 }
 
-.info {
+.container {
     display: flex;
+    background-color: #7fd2dd;
+}
+
+.info {
+    width: 50%;
     flex-direction: column;
+    text-align: center;
+    color: white;
 }
 
 .image {
+    width: 50%;
     background-image: url(online-shopping.jpg);
     height: 500px;
     background-size: contain;
     background-repeat:  no-repeat;
     
+}
+
+.start-btn {
+    border-radius: 20px;
+    border: none;
+    background: #007997;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
 }
